@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rekrutacja - Car Parking Multiplayer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>📋 Rekrutacja - Car Parking Multiplayer</h1>
+  <form id="rekrutacjaForm">
+    <label>Nick w grze:</label>
+    <input type="text" name="nick" required>
+
+    <label>Wiek:</label>
+    <input type="number" name="wiek" required>
+
+    <label>Platforma:</label>
+    <select name="platforma">
+      <option>Android</option>
+      <option>iOS</option>
+    </select>
+
+    <label>Od kiedy grasz:</label>
+    <input type="text" name="czas">
+
+    <label>Ile godzin dziennie grasz:</label>
+    <input type="text" name="godziny">
+
+    <label>Styl gry:</label>
+    <select name="styl">
+      <option>Drift</option>
+      <option>Wyścigi</option>
+      <option>RP</option>
+      <option>Tuning</option>
+    </select>
+
+    <label>Ulubione auto:</label>
+    <input type="text" name="auto">
+
+    <label>Dlaczego chcesz dołączyć:</label>
+    <textarea name="powod"></textarea>
+
+    <button type="submit">Wyślij zgłoszenie</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
