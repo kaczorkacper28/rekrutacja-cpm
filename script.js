@@ -1,5 +1,4 @@
-const webhookURL = https://discord.com/api/webhooks/1488336131258060901/I0bc4TGlAznkLH14iEdgoKEcc2LWJFkOctJ-9QomV2WBVL8AnqlF6a7LgLgFUzYGRqw_;
-
+const webhookURL =https://kaczorkacper28.github.io/rekrutacja-cpm/
 document.getElementById("rekrutacjaForm").addEventListener("submit", async (e) => {
   e.preventDefault();
 
